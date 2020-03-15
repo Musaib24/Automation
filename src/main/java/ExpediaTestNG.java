@@ -42,6 +42,6 @@ public class ExpediaTestNG {
     }
     @AfterTest
     public void terminateBrowser(){
-        driver.close();
+                driver.close();
     }
 }
