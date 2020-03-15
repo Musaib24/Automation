@@ -25,6 +25,6 @@ public class TestNG {
     }
     @AfterTest
     public void terminateBrowser(){
-        driver.close();
+                driver.close();
     }
 }
